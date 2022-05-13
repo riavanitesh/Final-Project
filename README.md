@@ -36,6 +36,18 @@ We collected our housing data in CSV file format from https://www.realtor.com/. 
 
 •	Average listing Price
 
+We also have Covid-19 Data:
 
-We also have Covid-19 Data…..(Yizhe to complete this part)
+•	submission_date	state	
 
+•	tot_cases	
+
+•	conf_cases	
+
+•	prob_cases
+
+•	new_case	
+
+•	pnew_case	
+
+•	tot_death
