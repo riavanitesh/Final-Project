@@ -1,7 +1,7 @@
 # US Housing Market Analysis
 
 <p align="center">  
-<img src="https://github.com/riavanitesh/Final-Project/blob/aem.saidur.rahman/Resources/Housing.png" width="60%" height="60%">
+<img src="https://github.com/riavanitesh/Final-Project/blob/aem.saidur.rahman/Resources/Housing.png" width="55%" height="55%">
 </p>
 <p align="center">  
 <i>  </i>
