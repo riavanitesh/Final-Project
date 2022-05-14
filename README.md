@@ -15,7 +15,17 @@ The continuous rise of housing prices has meant that currently (May 2022) Overal
 
 As Housing accounts for around 18% of the economy in residential fixed investment and related services, this alarming rise can create a big crisis in near future. From February 2021- February 2022, in these 12 months housing prices have increased 19.2%, organization like Zillow is forecasting another 14.9% growth in next 12 months. Both of these numbers are significantly higher compared to average annual U.S. home price growth of 4.6% posted since 1987.
 
-This situation has meant that both the housing buyers and sellers are unsure about what is an optimum price for them. In our project, we will be providing the users a recommendation based on the listing price change in last 3 years, impact of covid in housing price in that zip code and building a forecasting model factoring in the inputs mentioned above. That will help our users with the answers of how much they should be looking for if they are in the process of selling a property based on the current trend and if someone is thinking about purchasing then what the price might look like if they decide to wait. It will predict the change in housing prices as well as show the equity that can be built over the house in one year.
+This situation has meant that both the housing buyers and sellers are unsure about what is an optimum price for them. In our project, we will be providing the users a recommendation based on the listing price change in last 3 years, impact of covid in housing price in that zip code and building a forecasting model factoring in the inputs mentioned above. That will help our users with the answers of how much they should be looking for if they are in the process of selling a property based on the current trend and if someone is thinking about purchasing then what the price might look like if they decide to wait. 
+
+                                              Questions we hope to answer with the data
+                                              
+•Based on the user input i.e., location, price range and size of the property, the best matching results are populated.
+
+•It will also predict the change in housing prices in the coming one year
+
+•Show the equity that can be built over the house in one year
+
+•Concentration of the COVID-19 affected areas
 
 
                                                          Data Source
@@ -51,3 +61,9 @@ We also have Covid-19 Data:
 •	pnew_case	
 
 •	tot_death
+
+
+                                                                Communication Protocols
+                                                                   
+                                                                   
+In order to keep updated on the status of each of our parts of the project, we are catching up everyday over zoom/google meet and also have created a slack group where we share our update as and when its done.
