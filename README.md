@@ -67,7 +67,7 @@ In order to keep updated on the status of each of our parts of the project, we a
 ## Machine Learning Model
 •	The preliminary data includes columns that describe the situation over a period of three years starting from March 2019 to April 2022. These features include the date, the zip code, the house dimensions, listing counts and average listing price.
 
-•	An ERD showcasing the inter-relationships between each of the features from the different datasets can be found [here](https://user-images.githubusercontent.com/96554223/168478266-b49bc7e1-4774-4ddf-9a57-9b7abc7201da.png).
+•	An ERD showcasing the inter-relationships between each of the features from the different datasets can be found [here](https://github.com/riavanitesh/Final-Project/blob/main/Housing%20Market%20QuickDBD-export%20Version%203.png).
 
 •	The data will be split into training and test data using the train_test_split function. We will use the default 75% to 25% split.
 
