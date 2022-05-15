@@ -7,9 +7,7 @@
 <i>  </i>
 </p>
 
-
-
-                                                         Backgorund
+## Backgorund
 
 The continuous rise of housing prices has meant that currently (May 2022) Overall U.S. housing affordability is the lowest since 2008 and falling. The average 30-year fixed mortgage rate is above 5% and the highest since 2011, and the rise this year has been one of the fastest on record. It's both pricing out some stretched homebuyers and causing some would-be borrowers to lose their mortgage eligibility. 
 
@@ -17,7 +15,7 @@ As Housing accounts for around 18% of the economy in residential fixed investmen
 
 This situation has meant that both the housing buyers and sellers are unsure about what is an optimum price for them. In our project, we will be providing the users a recommendation based on the listing price change in last 3 years, impact of covid in housing price in that zip code and building a forecasting model factoring in the inputs mentioned above. That will help our users with the answers of how much they should be looking for if they are in the process of selling a property based on the current trend and if someone is thinking about purchasing then what the price might look like if they decide to wait. 
 
-                                              Questions we hope to answer with the data
+## Questions we hope to answer with the data
                                               
 •Based on the user input i.e., location, price range and size of the property, the best matching results are populated.
 
@@ -28,7 +26,7 @@ This situation has meant that both the housing buyers and sellers are unsure abo
 •Concentration of the COVID-19 affected areas
 
 
-                                                         Data Source
+## Data Source
 
 We collected our housing data in CSV file format from https://www.realtor.com/. It is an extensive data collection with over million rows. From this dataset we are taking inputs from the columns of 
 
@@ -62,8 +60,15 @@ We also have Covid-19 Data:
 
 •	tot_death
 
-
-                                                                Communication Protocols
-                                                                   
-                                                                   
+## Communication Protocols
+                                                                
 In order to keep updated on the status of each of our parts of the project, we are catching up everyday over zoom/google meet and also have created a slack group where we share our update as and when its done.
+
+## Machine Learning Model
+•	The preliminary data includes columns that describe the situation over a period of three years starting from March 2019 to April 2022. These features include the date, the zip code, the house dimensions, listing counts and average listing price.
+
+•	An ERD showcasing the inter-relationships between each of the features from the different datasets can be found [here](https://user-images.githubusercontent.com/96554223/168478266-b49bc7e1-4774-4ddf-9a57-9b7abc7201da.png).
+
+•	The data will be split into training and test data using the train_test_split function. We will use the default 75% to 25% split.
+
+•	We plan to use the ARIMA and the LSTM neural network for the time series forecasting.
