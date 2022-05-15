@@ -64,6 +64,42 @@ We also have Covid-19 Data:
                                                                 
 In order to keep updated on the status of each of our parts of the project, we are catching up everyday over zoom/google meet and also have created a slack group where we share our update as and when its done.
 
+## Tools
+
+**•	Creating Database**
+
+  o	PostgreSQL
+  
+  o	Amazon Web Services (AWS)
+  
+**•	Connecting to Database**
+
+  o	Psycopg2
+  
+**•	Analyzing Data**
+
+  o	Pandas
+  
+**•	Machine Learning**
+
+  o	Imbalanced-learn
+  
+  o	Scikit-Learn
+  
+  o	Tensorflow
+  
+**•	Dashboard**
+
+  o	Tableau
+  
+  o	Javascript
+  
+  o	Flask
+  
+  o	HTML
+  
+  o	CSS
+
 ## Machine Learning Model
 •	The preliminary data includes columns that describe the situation over a period of three years starting from March 2019 to April 2022. These features include the date, the zip code, the house dimensions, listing counts and average listing price.
 
