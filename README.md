@@ -28,7 +28,7 @@ This situation has meant that both the housing buyers and sellers are unsure abo
 
 ## Data Source
 
-We collected our housing data in CSV file format from https://www.realtor.com/. It is an extensive data collection with over million rows. From this dataset we are taking inputs from the columns of 
+We collected our housing data in CSV file format from https://www.realtor.com/research/data/. It is an extensive data collection with over million rows. From this dataset we are taking inputs from the columns of 
 
 •	Postal Code 
 
