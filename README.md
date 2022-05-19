@@ -99,6 +99,18 @@ In order to keep updated on the status of each of our parts of the project, we a
   o	HTML
   
   o	CSS
+  
+ ## EDA
+•	For the housing csv, the rows with null values are dropped
+
+•	The month_date_yyyymm column datatype was changed from integer to datetime.
+
+•	The heading was changed to Date and column rearranged.
+
+•	For the covid cases csv, we changed the datatype of submission date to datetime and replaced the NaN with 0s
+
+•	For the population csv, the zip column was converted to 5 digits with int datatype
+
 
 ## Machine Learning Model
 •	The preliminary data includes columns that describe the situation over a period of three years starting from March 2019 to April 2022. These features include the date, the zip code, the house dimensions, listing counts and average listing price.
