@@ -7,7 +7,7 @@
 <i>  </i>
 </p>
 
-## Backgorund
+## Background
 
 The continuous rise of housing prices has meant that currently (May 2022) Overall U.S. housing affordability is the lowest since 2008 and falling. The average 30-year fixed mortgage rate is above 5% and the highest since 2011, and the rise this year has been one of the fastest on record. It's both pricing out some stretched homebuyers and causing some would-be borrowers to lose their mortgage eligibility. 
 
