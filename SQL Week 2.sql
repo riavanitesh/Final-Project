@@ -46,9 +46,78 @@ CREATE TABLE Zip_Population (
     PRIMARY KEY (zip)
 );
 
+CREATE TABLE location_info AS(
 SELECT 
-FROM Housing_Market_Inventory_listing
-JOIN Housing_Market_Inventory_places
-   ON Housing_Market_Inventory_listing.postal_code = Housing_Market_Inventory_places.postal_code
-JOIN United_States_COVID_19_Cases_and_Deaths
-   ON Housing_Market_Inventory_places.state = United_States_COVID_19_Cases_and_Deaths.state
+	zip,
+	lat,
+	lng,
+	state,
+	zip.city,
+	population,
+	density
+FROM housing_market_inventory_places market
+JOIN zip_population zip
+	ON market.postal_code = zip.zip
+	);
+	
+CREATE TABLE listing_info AS(
+SELECT
+	Date,
+	zip,
+	lat,
+	lng,
+	state,
+	info.city,
+	population,
+	density,
+    median_listing_price,
+    median_days_on_market,
+    median_listing_price_per_square_foot,
+    median_square_feet,
+    average_listing_price,
+    total_listing_count 
+FROM housing_market_inventory_listing listing
+JOIN location_info info
+	ON listing.postal_code = info.zip
+	);
+
+CREATE TABLE covid_info AS(
+SELECT
+	info.Date,
+	zip,
+	lat,
+	lng,
+	info.state,
+	info.city,
+	population,
+	density,
+    median_listing_price,
+    median_days_on_market,
+    median_listing_price_per_square_foot,
+    median_square_feet,
+    average_listing_price,
+    total_listing_count,
+	tot_cases,
+	tot_death
+FROM united_states_covid_19_cases_and_deaths covid
+JOIN listing_info info
+	ON covid.state = info.state
+	);
+   
+UPDATE listing_info
+SET zip = 0
+WHERE zip = '';
+
+CREATE TABLE covid_info AS(
+SELECT
+	date,
+	postal_code,
+	market.state AS state_1,
+	covid.state AS state_2,
+	city,
+	tot_cases,
+	tot_death
+FROM housing_market_inventory_places market
+JOIN united_states_covid_19_cases_and_deaths covid
+	ON covid.state = market.state
+	);
