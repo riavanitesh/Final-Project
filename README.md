@@ -17,14 +17,11 @@ This situation has meant that both the housing buyers and sellers are unsure abo
 
 ## Questions we hope to answer with the data
                                               
-•Based on the user input i.e., location, price range and size of the property, the best matching results are populated.
+•How population growth in a particular state has affected the housing price
 
-•It will also predict the change in housing prices in the coming one year
+•Covid cases effect in the changes of housing valuation
 
-•Show the equity that can be built over the house in one year
-
-•Concentration of the COVID-19 affected areas
-
+•Considering covid cases impact has normalized in recent times, predict the housing price for next 1 year
 
 ## Data Source
 
@@ -44,7 +41,7 @@ We collected our housing data in CSV file format from https://www.realtor.com/re
 
 •	Average listing Price
 
-We also have Covid-19 Data:
+We also have Covid-19 Data: Collected from https://data.cdc.gov/Case-Surveillance/United-States-COVID-19-Cases-and-Deaths-by-State
 
 •	submission_date	state	
 
@@ -59,6 +56,8 @@ We also have Covid-19 Data:
 •	pnew_case	
 
 •	tot_death
+
+And population data (Source: https://simplemaps.com/data/us-zips)
 
 ## Communication Protocols
                                                                 
