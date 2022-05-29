@@ -15,6 +15,10 @@ As Housing accounts for around 18% of the economy in residential fixed investmen
 
 This situation has meant that both the housing buyers and sellers are unsure about what is an optimum price for them. In our project, we will be providing the users a recommendation based on the listing price change in last 3 years, impact of covid in housing price in that zip code and building a forecasting model factoring in the inputs mentioned above. That will help our users with the answers of how much they should be looking for if they are in the process of selling a property based on the current trend and if someone is thinking about purchasing then what the price might look like if they decide to wait. 
 
+## Presentation & Dashboard
+
+Please find the link to our google slides, which contains the presentation and dahsboard [here](https://docs.google.com/presentation/d/1kGPUJC4LtsQPQUWxbZgpo1bgo-D2i6mQu5RJ4ajN7b8/edit?usp=sharing)
+
 ## Questions we hope to answer with the data
                                               
 •How population growth in a particular state has affected the housing price
