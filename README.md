@@ -124,3 +124,16 @@ In order to keep updated on the status of each of our parts of the project, we a
 
 •	We plan to use the ARIMA and the LSTM neural network for the time series forecasting.
 
+## Database Set up
+•	Create database in PostgreSQL by creating tables and input data.
+
+![SQL import data](https://user-images.githubusercontent.com/95401877/170906005-eb8f5357-defe-4881-83f9-c330809580fc.png)
+
+•	Joint tables "listing" and "population" together, named " listing_info", and "location_info" are combined "listing_info" with "population" tables.
+![SQL Join Tables](https://user-images.githubusercontent.com/95401877/170906007-45ed7f05-ee65-4ccc-aa42-8b0dfee7d92b.png)
+Moreover, we did join to "covid" table and "places" table to get "covid_info" table.
+
+•	Using SQLAlchemy to create engine by Jupyter get connection between databases.
+![SQL Connection String - Jupyter](https://user-images.githubusercontent.com/95401877/170906009-40d09664-5c8e-4702-8e2c-f54222340a0d.png)
+
+![SQL Connection String](https://user-images.githubusercontent.com/95401877/170906010-25f16407-7a23-4475-b24e-e2aab637e261.png)
