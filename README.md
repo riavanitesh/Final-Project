@@ -125,17 +125,19 @@ In order to keep updated on the status of each of our parts of the project, we a
 •	We plan to use the ARIMA and the LSTM neural network for the time series forecasting.
 
 ## Database Set up
-•	Create database in PostgreSQL by creating tables and input data.
+•	Our data is very large, so we first clean and split the file to two data tables, place and listing. Place mainly contains information about the area, and we have organized the "zip code", "city" and "state" information for us to link to other tables later. Listing is a table that contains property information, such as price, quantity, etc.
+
+• the second job, we created data, imported the data into SQL, and merged the tables of related information together through the SQL database. For example, the table of population information was merged with housing information, and then the content of location was added. In addition, the covid information table and the place table are merged, which helps us to draw relevant analysis results.
 
 ![SQL import data](https://user-images.githubusercontent.com/95401877/170906005-eb8f5357-defe-4881-83f9-c330809580fc.png)
 
-•	Joint tables "listing" and "population" together, named " listing_info", and "location_info" are combined "listing_info" with "population" tables.
+* Joint tables "listing" and "population" together, named " listing_info", and "location_info" are combined "listing_info" with "population" tables.
 
 ![SQL Join Tables](https://user-images.githubusercontent.com/95401877/170906007-45ed7f05-ee65-4ccc-aa42-8b0dfee7d92b.png)
 
-Moreover, we did join to "covid" table and "places" table to get "covid_info" table.
+* Moreover, we did join to "covid" table and "places" table to get "covid_info" table.
 
-•	Using SQLAlchemy to create engine by Jupyter get connection between databases.
+•	Finally, we built the engine and implemented the database connection through SQLAlchemy. It makes our database more convenient, and also provides convenience and foundation for subsequent visualization.
 
 ![SQL Connection String - Jupyter](https://user-images.githubusercontent.com/95401877/170906009-40d09664-5c8e-4702-8e2c-f54222340a0d.png)
 
