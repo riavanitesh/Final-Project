@@ -63,9 +63,6 @@ We also have Covid-19 Data: Collected from https://data.cdc.gov/Case-Surveillanc
 
 And population data (Source: https://simplemaps.com/data/us-zips)
 
-## Communication Protocols
-                                                                
-In order to keep updated on the status of each of our parts of the project, we are catching up everyday over zoom/google meet and also have created a slack group where we share our update as and when its done.
 
 ## Tools
 
@@ -82,6 +79,7 @@ In order to keep updated on the status of each of our parts of the project, we a
 **•	Analyzing Data**
 
   o	Pandas
+  o	Tableau
   
 **•	Machine Learning**
 
@@ -95,13 +93,6 @@ In order to keep updated on the status of each of our parts of the project, we a
 
   o	Tableau
   
-  o	Javascript
-  
-  o	Flask
-  
-  o	HTML
-  
-  o	CSS
   
  ## EDA
 •	For the housing csv, the rows with null values are dropped
