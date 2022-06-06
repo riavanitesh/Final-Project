@@ -118,7 +118,8 @@ And population data (Source: https://simplemaps.com/data/us-zips)
 
 •	The data will be split into training and test data using the train_test_split function. We will use the default 75% to 25% split.
 
-•	We plan to use the ARIMA and the LSTM neural network for the time series forecasting.
+•	We used Stats Model and Linear Regression OLS method as we wanted to perform predictive analysis on the data by using one independent variable predicting dependent variable
+
 
 ## Database Set up
 •	Our data is very large, so we first clean and split the file to two data tables, place and listing. Place mainly contains information about the area, and we have organized the "zip code", "city" and "state" information for us to link to other tables later. Listing is a table that contains property information, such as price, quantity, etc.
