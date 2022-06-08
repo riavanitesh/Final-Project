@@ -21,7 +21,7 @@ Please find the link to our google slides, which contains the presentation [here
 
 ## Dashboard
 
-Please find the link to our Dashboard [here](https://prod-ca-a.online.tableau.com/#/site/riavanitesh/views/Book1/Story1)
+Please find the link to our Dashboard [here](https://public.tableau.com/authoring/Dashboard-GroupG/Dashboard-GroupG#1)
 
 
 ## Questions we hope to answer with the data
